@@ -2,6 +2,7 @@ import SEO from "../components/SEO";
 import ProductSchema from "../components/ProductSchema";
 import FAQSchema from "../components/FAQSchema";
 import { product } from "../data/product";
+import GoogleReviews from "../components/GoogleReviews";
 import { CheckCircle, PhoneCall, MessageCircle } from "lucide-react";
 
 const Product = () => {
@@ -21,7 +22,6 @@ const Product = () => {
       <main className="bg-[#F4F1E6]">
         <section className="py-14 sm:py-16 lg:py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
             {/* Mobile Layout */}
             <div className="lg:hidden text-left">
               <span className="inline-flex rounded-full bg-[#DCE8CF] px-4 py-2 text-[10px] font-bold tracking-widest text-[#2F5D3F]">
@@ -134,6 +134,8 @@ const Product = () => {
             <InfoCard title="Applications" items={product.applications} />
           </div>
         </section>
+        
+        <GoogleReviews />
       </main>
     </>
   );
@@ -155,9 +157,7 @@ const ProductImage = () => {
 
 const InfoCard = ({ title, items }) => (
   <div className="rounded-3xl sm:rounded-[30px] bg-[#FFFDF4] border border-[#D8D2BF] p-6 sm:p-8 shadow-sm">
-    <h2 className="text-2xl sm:text-3xl font-serif text-[#10352F]">
-      {title}
-    </h2>
+    <h2 className="text-2xl sm:text-3xl font-serif text-[#10352F]">{title}</h2>
 
     <div className="mt-6 space-y-4">
       {items.map((item) => (
@@ -184,5 +184,4 @@ const SpecCard = () => (
     </div>
   </div>
 );
-
 export default Product;
