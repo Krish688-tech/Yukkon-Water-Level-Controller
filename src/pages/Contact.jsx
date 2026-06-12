@@ -124,7 +124,7 @@ const Contact = () => {
 
               <iframe
                 title="Yukkon Villupuram Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487.9766599127916!2d79.47701945895085!3d11.9180792165989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a53567dc0d3337d%3A0xfcf6e8801819eaf9!2sNayara%20Energy!5e0!3m2!1sen!2sus!4v1781077095546!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.9530333597711!2d79.47638457521599!3d11.91815889738525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5357e0ba58206b%3A0xe76167cdfa62c358!2sYukkon%20Water%20Level%20Controller!5e0!3m2!1sen!2sin!4v1781260196003!5m2!1sen!2sin"
                 width="100%"
                 height="420"
                 loading="lazy"
