@@ -37,7 +37,7 @@ const LocalBusinessSchema = () => {
     sameAs: [
       "https://www.facebook.com/YukkonWaterSolutions",
       "https://www.instagram.com/yukkon1996/",
-      "www.linkedin.com/in/yukkon-water-level-controller-22aaa7415",
+      "https://www.linkedin.com/posts/yukkon-water-level-controller_yukkon-waterlevelcontroller-watermanagement-activity-7471487500713230337-_pg2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAhYt08BQObfKWf86DAJsARH8iIACoTHkdo",
       "https://www.youtube.com/@GPALANIGANESAN",
     ],
   };

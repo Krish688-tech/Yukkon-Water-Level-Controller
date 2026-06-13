@@ -26,7 +26,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/yukkon1996/" target="_blank" rel="noreferrer" className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center hover:bg-pink-500 transition-all duration-300">
                 <FaInstagram size={18} />
               </a>
-              <a href="https://www.linkedin.com/in/yukkon-water-level-controller-22aaa7415/" target="_blank" rel="noreferrer" className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#0A66C2] transition-all duration-300">
+              <a href="https://www.linkedin.com/posts/yukkon-water-level-controller_yukkon-waterlevelcontroller-watermanagement-activity-7471487500713230337-_pg2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAhYt08BQObfKWf86DAJsARH8iIACoTHkdo" target="_blank" rel="noreferrer" className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#0A66C2] transition-all duration-300">
                 <FaLinkedinIn size={18} />
               </a>
               <a href="https://www.youtube.com/@GPALANIGANESAN" target="_blank" rel="noreferrer" className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-500 transition-all duration-300">
